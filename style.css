@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #373b44;
+
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 span {
+  color: #56b4d3;
+  padding: 5px;
+  font-family: verdana;
+  display: table-cell;
+  display: inline-table;
+  text-shadow: 0 1px 0 #aaffa9;
+  ,
+  0 2px 0 #aaffa9;
+  ,
+  0 3px 0 #aaffa9;
+  ;
+  animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0px);
+    text-shadow: 0 1px 0 #aaffa9;
+
+    0 2px 0 #aaffa9;
+
+    0 3px 0 #aaffa9;
+
+    0 2px 5px rgba(0, 0, 0, .2);
+  }
+
+  50% {
+    transform: translateY(-20px);
+    text-shadow: 0 1px 0 #aaffa9;
+    ,
+    0 2px 0 #aaffa9;
+    ,
+    0 3px 0 #aaffa9;
+    ,
+    0 25px 5px rgba(0, 0, 0, .2);
+  }
+
+  100% {
+    transform: translateY(0px);
+    text-shadow: 0 1px 0 #aaffa9;
+    ,
+    0 2px 0 #aaffa9;
+    ,
+    0 3px 0 #aaffa9;
+    ,
+    0 2px 5px rgba(0, 0, 0, .2);
+  }
+}
+
+/* Each Letter and seconds before moving */
+h1 span:nth-child(1) {
+  animation-delay: .1s;
+}
+
+h1 span:nth-child(2) {
+  animation-delay: .2s;
+}
+
+h1 span:nth-child(3) {
+  animation-delay: .3s;
+}
+
+h1 span:nth-child(4) {
+  animation-delay: .4s;
+}
+
+h1 span:nth-child(5) {
+  animation-delay: .5s;
+}
+
+h1 span:nth-child(6) {
+  animation-delay: .1s;
+}
+
+h1 span:nth-child(7) {
+  animation-delay: .2s;
+}
+
+h1 span:nth-child(8) {
+  animation-delay: .3s;
+}
+
+h1 span:nth-child(9) {
+  animation-delay: .4s;
+}
+
+h1 span:nth-child(10) {
+  animation-delay: .5s;
+}
+
+h1 span:nth-child(11) {
+  animation-delay: .6s;
+}
+
+h1 span:nth-child(12) {
+  animation-delay: .7s;
+}
